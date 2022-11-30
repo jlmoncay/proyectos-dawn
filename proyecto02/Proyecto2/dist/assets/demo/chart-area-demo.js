@@ -7,7 +7,7 @@ Chart.defaults.global.defaultFontColor = '#292b2c';
 let titulo = [];
 let puntaje = [];
 
-fetch("https://ghibliapi.herokuapp.com/films")
+fetch("http://localhost:3000/Result")
         .then(response => response.json())
         .then(data => {
             
