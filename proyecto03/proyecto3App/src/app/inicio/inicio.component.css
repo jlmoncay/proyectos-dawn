@@ -1,0 +1,46 @@
+
+img{
+    width: 60%;
+   
+}
+
+.container {
+	background: rgb(241, 235, 240);
+	background: linear-gradient(0deg, rgb(130, 187, 253) 0%, rgb(2, 58, 104) 100%);
+    justify-content: center;
+}
+
+.col-5{
+    align-items: center;
+}
+
+.full {
+	min-height: 100vh;
+}
+
+.titulo {
+	font-family: 'Edu VIC WA NT Beginner', cursive;
+    text-align: center;
+}
+
+.imagen, .boton{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 20px;
+    color:#0a0a0a;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    background-color:#ecba5c;
+    border-color: #d8d8d8;
+    border-width: 4px;
+    border-style: solid;
+    border-radius:35px;
+    }
