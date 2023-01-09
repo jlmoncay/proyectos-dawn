@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Pelicula } from './interfaz/pelicula';
+import { RecursosService } from './servicios/recursos.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proyecto3App';
+
 }

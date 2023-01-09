@@ -1,1 +1,28 @@
-<p>pelicula works!</p>
+
+<section>
+  <mat-toolbar class="header">
+    <button mat-icon-button class="example-icon arrow_back_ios-icon" routerLink="/categoria">
+      <mat-icon>arrow_back_ios</mat-icon>
+    </button>
+  </mat-toolbar>
+</section>
+
+<div class="peliculas">
+  <div class="container">
+    <h1>PELÍCULAS</h1> 
+
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+  <div class="col" *ngFor="let pelicula of peliculas">
+    <div class="card-pelicula">
+      <img src="{{pelicula.image}}" alt="{{pelicula.title}}">
+
+      <div class="card-body">
+        <h2 class="card-text">{{pelicula.title}}</h2> 
+        <p class="card-text">{{pelicula.description}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+  
+</div>
+</div>
