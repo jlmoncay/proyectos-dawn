@@ -7,6 +7,8 @@ import { InicioComponent } from './inicio/inicio.component';
 import { CategoriaComponent } from './categoria/categoria.component';
 import { PeliculaComponent } from './pelicula/pelicula.component';
 import { DirectoresComponent } from './directores/directores.component';
+import {MatCardModule} from '@angular/material/card';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { DirectoresComponent } from './directores/directores.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatCardModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,17 @@
+.example-card {
+    justify-content: center;
+    align-items: center;
+    max-width: 40%;
+    margin-left: 30%;
+    margin-top: 4%;
+  }
+  
+ img {
+    width: 80%;
+ }
+
+ .contenido {     
+
+
+    background: linear-gradient(0deg, rgb(130, 187, 253) 0%, rgb(2, 58, 104) 100%);
+ }
