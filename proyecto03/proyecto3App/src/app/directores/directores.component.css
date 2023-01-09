@@ -1,0 +1,35 @@
+img {   
+    height: 400px;
+    width: 300px;
+}
+
+.card-text {
+    width: 80%;
+    text-align-last: center;
+    padding-left: 10%;   
+    padding-top: 15%; 
+}
+
+.directores{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(0deg, rgb(25, 89, 161) 0%, rgb(118, 174, 219) 100%);
+}
+
+
+
+h2{
+  color: rgb(245, 248, 252);
+  font-weight: 1200;
+  
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-weight: 1000;
+    font-size:xx-large;
+    text-align: center;
+    padding-top: 2%;
+  }

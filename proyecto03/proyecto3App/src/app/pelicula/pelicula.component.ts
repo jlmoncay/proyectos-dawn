@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { PageEvent } from '@angular/material/paginator';
 import { Pelicula } from '../interfaz/pelicula';
-
 import { RecursosService } from '../servicios/recursos.service';
 
 @Component({

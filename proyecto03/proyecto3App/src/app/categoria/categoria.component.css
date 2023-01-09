@@ -15,3 +15,7 @@
 
     background: linear-gradient(0deg, rgb(130, 187, 253) 0%, rgb(2, 58, 104) 100%);
  }
+
+ h1 {
+   font-weight: 1000;
+ }
